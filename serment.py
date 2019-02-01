@@ -1,7 +1,14 @@
 ###My program###
 
-print("Salut les gens")
-for (i=10;i>0;i--)
-    print(i)
+import time
 
-print("Game over)
+print("Salut les gens")
+time.sleep(2)
+i = 10
+
+while i>0:
+    print(i)
+    time.sleep(1)
+    i -= 1
+    
+print("Game over")
